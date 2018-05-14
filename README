@@ -1,0 +1,32 @@
+LoLSnakes
+===========
+An enhanced LoL shield for the purpose of implementing a snakes game.
+
+This project contains the working material for a two day secondary school
+Arduino workshop.
+
+Directories:
+============
+|
++-Hardware              - Everything needed to build the LoLSnakes shield
+|
++-Software              - Source files of the LoLSnakes shields firmware
+|
++-Workshop              - Workshop materials
+
+The LoLSnakes software is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with the LoLSnakes shield firmware. If not, see
+<http://www.gnu.org/licenses/>.
+
+The hardware design of the LoLSnakes shield is licensed under a Creative
+Commons Attribution-ShareAlike 3.0 Unported License
+(http://creativecommons.org/licenses/by-sa/3.0/).
+
+The LoLSnakes shield uses Kicad library components by Walter Lain which are
+licensed under a Creative Commons Attribution-ShareAlike 3.0 License 
+(http://creativecommons.org/licenses/by-sa/3.0/).
