@@ -38,10 +38,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "LoLSnakes"
+Date "2018-06-07"
+Rev "RevA"
+Comp "hotwolf"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -1466,17 +1466,6 @@ Text Label 6850 4900 1    60   ~ 0
 PD3_R
 Text Label 7850 4900 1    60   ~ 0
 PD2_R
-$Comp
-L Buzzer BZ1
-U 1 1 5ADC442D
-P 3950 5800
-F 0 "BZ1" H 4100 5850 50  0000 L CNN
-F 1 "Buzzer" H 4100 5750 50  0000 L CNN
-F 2 "LoLSnakes:buzzer_tmb" V 3925 5900 50  0001 C CNN
-F 3 "" V 3925 5900 50  0001 C CNN
-	1    3950 5800
-	1    0    0    -1  
-$EndComp
 Text Label 6850 5400 1    60   ~ 0
 PD3
 Text Label 5750 5400 1    60   ~ 0
@@ -2620,4 +2609,15 @@ $EndComp
 Wire Wire Line
 	4250 6600 4400 6600
 Connection ~ 4400 6600
+$Comp
+L BUZZER BZ1
+U 1 1 5B194419
+P 3950 5800
+F 0 "BZ1" H 4100 5850 50  0000 L CNN
+F 1 "BUZZER" H 4100 5750 50  0000 L CNN
+F 2 "LoLSnakes:buzzer" V 3925 5900 50  0001 C CNN
+F 3 "" V 3925 5900 50  0001 C CNN
+	1    3950 5800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
